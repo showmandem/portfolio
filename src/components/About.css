@@ -1,0 +1,175 @@
+.about {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1f2937;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: #2563eb;
+  border-radius: 2px;
+}
+
+.about-content {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image-wrapper {
+  width: 100%;
+  max-width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 968px) {
+  .about-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-item {
+    padding: 1rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .about {
+    background: #111827;
+  }
+
+  .section-title {
+    color: #f9fafb;
+  }
+
+  .section-title::after {
+    background: #60a5fa;
+  }
+
+  .about-paragraph {
+    color: #d1d5db;
+  }
+
+  .stat-item {
+    background: #1f2937;
+  }
+
+  .stat-number {
+    color: #60a5fa;
+  }
+
+  .stat-label {
+    color: #9ca3af;
+  }
+}
