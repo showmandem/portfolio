@@ -8,7 +8,7 @@ function Skills() {
         { name: 'React', level: 90 },
         { name: 'JavaScript', level: 95 },
         { name: 'HTML/CSS', level: 95 },
-        { name: 'Tailwind CSS', level: 85 },
+        { name: 'Tailwind CSS', level: 80 },
       ],
     },
     {

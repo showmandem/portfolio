@@ -20,11 +20,11 @@ function Projects() {
     },
     {
       title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard displaying real-time weather data with beautiful visualizations and forecasts.',
-      technologies: ['React', 'OpenWeather API', 'Chart.js'],
+      description: 'Interactive weather dashboard displaying real-time weather data ',
+      technologies: ['HTML/CSS', 'OpenWeather API', 'JavaScript'],
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
+      // link: '#',
+      github: 'https://github.com/showmandem/WeatherApp',
     },
     {
       title: 'Social Media Dashboard',
@@ -34,14 +34,14 @@ function Projects() {
       link: '#',
       github: '#',
     },
-    {
-      title: 'Portfolio Generator',
-      description: 'Dynamic portfolio website generator with customizable themes and easy content management.',
-      technologies: ['React', 'Next.js', 'TailwindCSS'],
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
-    },
+    // {
+    //   title: 'Portfolio Generator',
+    //   description: 'Dynamic portfolio website generator with customizable themes and easy content management.',
+    //   technologies: ['React', 'Next.js', 'TailwindCSS'],
+    //   image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   link: '#',
+    //   github: '#',
+    // },
     {
       title: 'Fitness Tracker',
       description: 'Mobile-responsive fitness tracking app with workout plans, progress tracking, and goal setting.',
