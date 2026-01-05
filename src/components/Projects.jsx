@@ -3,20 +3,20 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with payment integration, product management, and user authentication.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
+      title: 'Movie App',
+      description: 'A frontend MovieApp which fetches movies from an online API',
+      technologies: ['React', 'CSS'],
+      image: 'https://mir-s3-cdn-cf.behance.net/projects/404/0b01b8236032111.Y3JvcCwxMTIyLDg3NywwLDA.jpg',
+      link: 'https://github.com/showmandem/MovieApp',
+      github: 'https://movie-app-iota-blond.vercel.app/',
     },
     {
       title: 'Task Management App',
       description: 'Collaborative task management tool with real-time updates, team collaboration, and project tracking features.',
       technologies: ['React', 'Firebase', 'Material-UI'],
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
+      link: 'https://dosomething-blush.vercel.app/',
+      github: 'https://github.com/showmandem/dynamic-to-do-list-js',
     },
     {
       title: 'Weather Dashboard',
@@ -26,30 +26,7 @@ function Projects() {
       // link: '#',
       github: 'https://github.com/showmandem/WeatherApp',
     },
-    {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media metrics with data visualization and reporting capabilities.',
-      technologies: ['React', 'Express', 'MongoDB', 'D3.js'],
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
-    },
-    // {
-    //   title: 'Portfolio Generator',
-    //   description: 'Dynamic portfolio website generator with customizable themes and easy content management.',
-    //   technologies: ['React', 'Next.js', 'TailwindCSS'],
-    //   image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   link: '#',
-    //   github: '#',
-    // },
-    {
-      title: 'Fitness Tracker',
-      description: 'Mobile-responsive fitness tracking app with workout plans, progress tracking, and goal setting.',
-      technologies: ['React', 'Redux', 'Node.js', 'MongoDB'],
-      image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: '#',
-      github: '#',
-    },
+    
   ];
 
   return (
