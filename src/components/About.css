@@ -86,9 +86,12 @@
 }
 
 .about-image-wrapper {
-  width: 100%;
-  max-width: 400px;
+  width: 90%;
+  /* max-width: 400px; */
   animation: float 3s ease-in-out infinite;
+}
+.image-2{
+  border-radius: 16px;
 }
 
 @keyframes float {

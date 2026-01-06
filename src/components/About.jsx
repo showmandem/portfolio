@@ -40,8 +40,9 @@ function About() {
               <img
                 width="100%"
                 height="100%"
-                src="/Derrick.jpg"
+                src="/Derrick1.jpg"
                 alt="About Me"
+                className='image-2'
               />
             </div>
           </div>
