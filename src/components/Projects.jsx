@@ -26,6 +26,14 @@ function Projects() {
       // link: '#',
       github: 'https://github.com/showmandem/WeatherApp',
     },
+    {
+      title: 'Recipe Finder',
+      description: 'A Recipe Finder app that allows users to search for meals based on available ingredients, dietary preferences, or meal types, providing step-by-step cooking instructions and nutritional information.',
+      technologies: ['Java'],
+      image: 'https://images-platform.99static.com/O6Uk3U2UTgwKA6r0-qxEZPARPjQ=/0x1191:1005x2196/fit-in/99designs-contests-attachments/80/80692/attachment_80692191',
+      link: '',
+      github: 'https://github.com/showmandem/Dzidzi',
+    }
     
   ];
 
