@@ -199,6 +199,10 @@
     grid-template-columns: 1fr;
     gap: 3rem;
   }
+    .social-links {
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 1rem;}
 
   .contact-info-title {
     font-size: 1.5rem;
@@ -207,7 +211,17 @@
   .contact-form {
     padding: 2rem;
   }
+ 
+  .contact-info {
+    order: 2;
+  }
+
+  .contact-form {
+    order: 1;
+  }
 }
+
+
 
 @media (max-width: 640px) {
   .contact-info-text {
@@ -223,6 +237,11 @@
   .social-links {
     flex-wrap: wrap;
   }
+    .social-links {
+    justify-content: center; /* centers horizontally */
+    flex-wrap: wrap;         /* allows items to wrap if needed */
+    gap: 1rem;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
