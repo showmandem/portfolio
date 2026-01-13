@@ -18,11 +18,30 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setStatus('Message sent successfully!');
-    setFormData({ name: '', email: '', message: '' });
-    setTimeout(() => setStatus(''), 3000);
-  };
+  e.preventDefault();
+
+  const phoneNumber = "233205873060"; // your WhatsApp number (no +)
+
+  const message = `
+Hello, my name is ${formData.name}.
+Email: ${formData.email}
+
+Message:
+${formData.message}
+  `;
+
+  const encodedMessage = encodeURIComponent(message);
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  window.open(whatsappURL, "_blank");
+
+  setStatus("Redirecting to WhatsApp...");
+  setFormData({ name: "", email: "", message: "" });
+
+  setTimeout(() => setStatus(""), 3000);
+};
+
 
   return (
     <section id="contact" className="contact">
@@ -121,7 +140,7 @@ function Contact() {
               ></textarea>
             </div>
             <button type="submit" className="form-button">
-              Send Message
+              Send Message via Whatsapp
             </button>
             {status && <p className="form-status">{status}</p>}
           </form>
