@@ -20,7 +20,7 @@ function Contact() {
   const handleSubmit = (e) => {
   e.preventDefault();
 
-  const phoneNumber = "233205873060"; // your WhatsApp number (no +)
+  const phoneNumber = "233205873060"; 
 
   const message = `
 Hello, my name is ${formData.name}.
