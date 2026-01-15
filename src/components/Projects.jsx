@@ -11,19 +11,11 @@ function Projects() {
       github: 'https://github.com/showmandem/MovieApp',
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates, team collaboration, and project tracking features.',
-      technologies: ['React',],
-      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-      link: 'https://dosomething-blush.vercel.app/',
-      github: 'https://github.com/showmandem/dynamic-to-do-list-js',
-    },
-    {
       title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard displaying real-time weather data ',
+      description: 'Interactive weather dashboard displaying real-time weather data for every city you search for.',
       technologies: ['HTML/CSS', 'OpenWeather API', 'JavaScript'],
       image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      // link: '#',
+      link: 'https://cloudcast-sand.vercel.app/',
       github: 'https://github.com/showmandem/WeatherApp',
     },
     {
@@ -33,7 +25,17 @@ function Projects() {
       image: 'https://images-platform.99static.com/O6Uk3U2UTgwKA6r0-qxEZPARPjQ=/0x1191:1005x2196/fit-in/99designs-contests-attachments/80/80692/attachment_80692191',
       link: '',
       github: 'https://github.com/showmandem/Dzidzi',
+    },
+    {
+      title: 'Task Management App',
+      description: 'Collaborative task management tool with real-time updates, team collaboration, and project tracking features.',
+      technologies: ['React',],
+      image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
+      link: 'https://dosomething-blush.vercel.app/',
+      github: 'https://github.com/showmandem/dynamic-to-do-list-js',
     }
+    
+    
     
   ];
 
