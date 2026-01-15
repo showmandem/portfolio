@@ -86,7 +86,7 @@ ${formData.message}
                 </div>
                 <div>
                   <h4 className="method-title">Location</h4>
-                  <p className="method-text">Kasoa, Ghana</p>
+                  <p className="method-text">Accra, Ghana</p>
                 </div>
               </div>
             </div>
