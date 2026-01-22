@@ -9,8 +9,7 @@ function About() {
           <div className="about-text">
             <p className="about-paragraph">
             I’m a passionate software developer with a strong focus on frontend web development
-             and a growing interest in data analytics. I enjoy building responsive, user-friendly i
-             nterfaces and using data to gain insights that support better decision-making.
+             and a growing interest in data analytics. I enjoy building responsive, user-friendly interfaces and using data to gain insights that support better decision-making.
             </p>
             <p className="about-paragraph">
               My journey into tech started with a curiosity about how websites work, 
