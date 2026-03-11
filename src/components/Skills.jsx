@@ -14,9 +14,9 @@ function Skills() {
     {
       title: 'Data Analytics',
       skills: [
-        { name: 'Excel', level: 85 },
+        { name: 'Excel', level: 95 },
         { name: 'Python', level: 80 },
-        { name: 'Power BI', level: 75 },
+        { name: 'Power BI', level: 85 },
       ],
     },
     {
