@@ -31,7 +31,7 @@ function Projects() {
       description: 'An interactive sales dashboard to analyze trends, regional performance, and key business metrics.',
       technologies: ['Excel', 'PowerBi', 'DAX'],
       image: '/Sales_Dashboard.png',
-      link: 'https://movie-app-iota-blond.vercel.app/',
+      link: '',
       github: 'https://github.com/showmandem/Interactive_Sales_Dashboard',
     },
     {
