@@ -27,6 +27,14 @@ function Projects() {
       github: 'https://github.com/showmandem/Dzidzi',
     },
     {
+      title: 'Sales Analytics Dashboard',
+      description: 'An interactive sales dashboard to analyze trends, regional performance, and key business metrics. ',
+      technologies: ['Excel', 'PowerBi', 'DAX'],
+      image: <img src="Sales_Dashboard" alt="" />,
+      link: 'https://movie-app-iota-blond.vercel.app/',
+      github: 'https://github.com/showmandem/Interactive_Sales_Dashboard',
+    },
+    {
       title: 'Task Management App',
       description: 'Collaborative task management tool with real-time updates, team collaboration, and project tracking features.',
       technologies: ['React',],
