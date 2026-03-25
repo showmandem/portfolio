@@ -15,10 +15,10 @@ function Hero() {
           <h1 className="hero-title">
             {`Hi, I'm Derrick Owusu-Asare`}
           </h1>
-          <p className="hero-subtitle">Software Engineer</p>
+          <p className="hero-subtitle">Software Engineer | Data Analyst</p>
           <p className="hero-description">
-            I create beautiful, functional web experiences that solve real problems
-            and delight users. Passionate about clean code and elegant design.
+            I build scalable web applications and data-driven solutions that solve real problems. 
+            Passionate about clean code, insightful analysis, and intuitive user experiences.
           </p>
           <div className="hero-buttons">
             <button onClick={scrollToContact} className="btn btn-primary">
